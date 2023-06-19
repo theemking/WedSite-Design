@@ -1,0 +1,380 @@
+/* Think About A Child html CSS*/
+
+   .header2{
+	height: 135px;
+	width: 100%; 
+  	display: block;  
+/* 	background-color: green; */
+	padding-bottom: 10px;
+ }  
+
+body{
+	width: 99%; 
+	height: auto;  
+}
+/*  *******************  MAIN  *************************  */ 
+ .main{	
+	width: 100%;
+  	height: auto;  
+	padding-left: 10px;
+	padding-top: 10px;
+ }
+
+@media only screen and (max-width: 700px){
+  	.header2{  width: 480px;	  
+	padding: 5px;
+	height: 180px;
+	display: inline-block; 	
+/* 	border-bottom: 2px ridge #00005D; */
+	}  
+
+	h1, h2, h3{font-size: 100%;	}  
+
+}
+@media only screen and (min-width: 700px){
+.donate{
+ 	margin-right: -250px;
+	padding:0;
+	float: left;	
+/* 	font-size: 20px; */
+}
+}
+@media only screen and (max-width: 700px){
+	.youtube{
+	
+	margin-top: 40px;
+    margin-right: auto;   	
+	
+	}
+  
+	.facebook{
+  	margin-top: 40px; 
+   	margin-right: -10px;   
+	}
+	.donatelogo{
+	margin-top: -80px;
+  	margin-right: 175px;
+	padding: 0;
+	}
+
+  .donate{
+	margin-left: 20px;
+  	margin-top: auto;	  
+  	color: orange;  
+	font-size: strong;
+	float: left;
+} 
+}
+.logo{
+	width: 28%;  
+	padding: 5px;
+	float: left;
+
+}
+  .headeritems{
+  	height: 135px; 
+	width: 70%;
+	margin: 1px 4px 0 0;	  	 
+  	float: right;  
+	display: inline-block;
+/* 	background-color: black; */
+}  
+
+   .facebook{ 	  background-color: purple;  
+	float: right; 
+  	padding: 20px;   
+  }  
+  .youtube{   	background-color: pink;  
+    padding: 0;    
+	padding: 20px;
+  	float: right;   
+  }
+  .donate{ color: orange;  
+    display: inline-block;	    
+   	margin-top: 15px;   
+	margin-bottom: -20px;
+	text-align: center; 
+	font-size: 13px;
+  }
+  
+  .donatelogo{   	background-color: #357EC7; 
+	color: #CD7F32;	 
+    float: right;
+	padding: 20px;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+  }
+ @keyframes mymove {
+    from {background-color: #357EC7;}
+    to {background-color: Green;}
+ }	
+
+@media only screen and (max-width: 700px){
+body{
+	width: 100%;
+}
+.main{
+	/* 	width: 35%;  */
+}
+}	
+ /*  *******************  FOOTER  *************************  */
+ 
+/*  *******************  SECTION 1  *************************  */
+.primaryTEXT{
+	text-transform: uppercase;
+	text-align: center;
+}
+.textcolo1{
+	color: #3090C7;
+}
+.textcolo2{
+	color: #fff;
+}
+.sampletext{
+	font-size: 20px;
+	text-align: center;
+/* 	padding: 10px; */ 
+	line-height: 50px;
+	
+}
+/*  *******************************************************************************  */
+ 
+
+.miniboxes{
+/* align-items: center; 
+   display: flex;
+  flex-wrap: wrap;   */
+  padding: 10px 10px 20px 10px;
+  justify-content: space-around;
+   vertical-align: top;
+/*    position: center; */
+  	margin-left: 70px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	
+}
+.bigPicturesimage{
+	background-image: url("./pictures/Color2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.rizebox1{
+    background-color: white;   
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	vertical-align: top;
+  	float: center;  
+	margin-top: 15px;
+	margin-left: 20px;
+	padding: 0;
+	margin: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+}
+.miniboximage{
+	height: 200px;
+	width: 200px;
+	padding: 45px;
+	
+}
+ .image{
+   	height: 560px;  
+	width: 100%; 
+  	margin: 0;
+	padding: 0;     
+}
+.sectionbase{
+ 	height: 620px;  
+	width: 100%; 
+/* 	background-color: gray; */
+}
+ .textbox2{
+	 background-color: #fff;
+	 height: 500px;
+	 width: 650px;
+	 float: right;
+}
+ .textbox3{
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	background-image: url("./Pictures/IMG_0039.JPG");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+ }
+  .textbox4{
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+ 	margin-top: 30px; 
+ 	margin-bottom: 50px; 
+	padding: 40px; 
+/* 	background-image: url("./Pictures/IMG_0915.JPG");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat; */
+ }
+
+
+ .textsize{
+	 font-size: 40px;
+	 margin-bottom: 30px;
+ }
+ .textsize1{
+	font-size: 30px;
+	margin-bottom: 50px;
+	color: #fff;	
+	font-weight: bold;
+ }
+ .oldschool{
+	padding: 50px;
+	padding-top: 20px;
+/* 	 width: 90%;
+	 max-width: 100%; */
+ }
+ .newschoolbase{
+	 
+ }
+ .textcolor1{
+	color: #fff;
+	 
+ }
+h1, h2{
+	text-decoration: none;
+ }
+ /*  *******************************************************************************  */
+/**************************NAVIGATION BAR****************************** */
+.firstdiv{
+	background-color: #357EC7 ; /* #ADD8E6; */
+	height: 73px;
+	width: 100%;
+ 	text-align: center;  
+  	float: center;	 
+	padding: 0;
+/* 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+}
+.liborder{
+	height: auto;
+	width: 130px;
+}
+ .liborder1{
+	height: auto;
+	width: 180px;
+}
+ .liborder2{
+	height: auto;
+	width: 190px;
+}
+ li {
+	float: left;
+/* 		padding-left: 40px; */
+}
+
+      @media only screen and (max-width: 700px){
+li{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+nav a{
+padding: 0;
+ 	
+}
+.liborder{
+	width: 70px;
+	padding-top: 5px;
+}
+.liborder1, .liborder2{		
+	width: 100px;
+	padding-top: 5px;
+}  
+.firstdiv{
+	height: 50px;
+	width: 100%;	 
+	text-align: center;	padding-top: 5px;
+ 
+}
+.liborder{
+	height: auto; 
+	width: 60px; 
+	padding: 0;  
+}
+ .liborder1{
+	height: auto; 
+ 	padding: 0;
+	width: 75px;
+  
+}
+ .liborder2{
+	height: auto;
+	width: 90px; 
+  	padding: 0;
+  
+}
+}
+@media only screen and (max-width: 700px){
+	h1, h2 {font-size: 70%;}
+	nav, nav lu, nav li {padding: 2px 1px;}
+	nav li {display: block;}
+	nav a {display: block;
+/*    		border-bottom: 2px ridge #00005D; */}  
+	div{
+/*   	display: inline-block;   */
+	}
+		.miniboxes{
+/* 		margin: 0;
+		float: left;
+		width: 30%;
+		 */
+	}
+}
+ 
+ul{
+	list-style-type: none;
+	margin: 0;
+  	padding-left: 20px; 
+}
+
+li a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+   	padding: 1px 1px;   
+ 
+}
+a{
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #2554C7;
+}
+
+/*  *******************  SECTION 2  *************************  */
+ 
+ 
+ 
+.footer{
+	background-color: #357EC7;  /*  #357EC7;   */
+ 	height: 130px;
+ 	width: 98.6%;
+  	position: relative; 
+ 	margin-top: 40px;   
+}
+/*  *******************  FOOTER  *************************  */
+.footerstyle{
+  	margin-bottom: 20px; 
+	text-align: center;
+	font-size: 20px;
+  	padding-top: 30px;   
+	position: absolute;
+}
+ 

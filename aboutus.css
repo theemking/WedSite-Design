@@ -1,0 +1,296 @@
+/* Think About A Child html CSS*/
+
+   .header2{
+	height: 135px;
+	width: 100%; 
+  	display: block;  
+/* 	background-color: green; */
+	padding-bottom: 10px;
+}  
+
+body{
+	width: 100%; 
+	height: auto;  
+}
+/*  *******************  MAIN  *************************  */ 
+ .main{	
+	width: 98.6%;
+  	height: auto;  
+	padding-top: 10px;
+/* 	padding-left: 10px;
+	padding-right: 10px; */
+ }
+
+@media only screen and (max-width: 700px){
+  	.header2{  width: 480px;	  
+	padding: 5px;
+	height: 180px;
+	display: inline-block; 	
+/* 	border-bottom: 2px ridge #00005D; */
+	}  
+
+	h1, h2, h3{font-size: 100%;	}  
+
+}
+@media only screen and (min-width: 700px){
+.donate{
+ 	margin-right: -250px;
+	padding:0;
+	float: left;	
+}
+}
+@media only screen and (max-width: 700px){
+	.youtube{
+	
+	margin-top: 40px;
+    margin-right: auto;   	
+	
+	}
+  
+	.facebook{
+  	margin-top: 40px; 
+   	margin-right: -10px;   
+	}
+	.donatelogo{
+	margin-top: -84px;
+  	margin-right: 175px;
+	padding: 0;
+	}
+
+  .donate{
+	margin-left: 20px;
+  	margin-top: auto;	  
+  	color: orange;  
+	font-size: strong;
+	float: left;
+} 
+}
+.logo{
+	width: 28%;  
+	padding: 5px;
+	float: left;
+
+}
+  .headeritems{
+  	height: 135px; 
+	width: 70%;
+	margin: 1px 4px 0 0;	  	 
+  	float: left;  
+	display: inline-block;
+/* 	background-color: black; */
+}  
+
+   .facebook{ 	  background-color: purple;  
+	float: right; 
+  	padding: 20px;   
+  }  
+  .youtube{   	background-color: pink;  
+    padding: 0;    
+	padding: 20px;
+  	float: right;   
+  }
+  .donate{ color: orange;  
+    display: inline-block;	    
+   	margin-top: 15px;   
+	margin-bottom: -20px;
+	text-align: center; 
+	font-size: 13px;
+  }
+  
+  .donatelogo{   	background-color: #357EC7; 
+	color: #CD7F32;	 
+    float: right;
+	padding: 20px;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+  }
+ @keyframes mymove {
+    from {background-color: #357EC7;}
+    to {background-color: Green;}
+ }	
+ 
+
+@media only screen and (max-width: 700px){
+body{
+	width: 100%;
+}
+.main{
+	/* 	width: 35%;  */
+}
+}	
+ 
+/*  *******************  SECTION 1  *************************  */
+.primaryTEXT{
+	text-transform: uppercase;
+	text-align: center;
+}
+.textcolo1{
+	color: #3090C7;
+}
+.textcolo2{
+	color: #fff;
+}
+.sampletext{
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	
+}
+/*  *******************************************************************************  */
+ .abseconddiv1{
+	 height: auto;
+	 width: 85%;
+ }
+ .abseconddiv{
+	 height: auto;
+	 width: 60%;
+	 max-width: 100%;
+/*   	 background-color: lightgray;  */ 
+	 margin-left: 40px;
+ 	 padding: 20px;  
+	 padding-left: 100px;
+	 padding-right: 100px;
+	 font-size: 20px;
+ }
+.tac{
+	text-align: center;
+	font-size: 35px;
+}
+
+@media only screen and (max-width: 700px){
+	.abseconddiv{
+		height: auto;
+		width: 400px;
+		padding: 0;
+	}	   
+}
+ /*  *******************************************************************************  */
+ 
+ 
+/**************************NAVIGATION BAR****************************** */
+.firstdiv{
+	background-color: #357EC7 ; /* #ADD8E6; */
+	height: 70px;
+	width: 100%;
+	float: center;
+	    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+ .liborder{
+	height: auto;
+	width: 130px;
+}
+ .liborder1{
+	height: auto;
+	width: 180px;
+}
+ .liborder2{
+	height: auto;
+	width: 190px;
+}
+ li {
+	float: left;
+/* 		padding-left: 40px; */
+}
+
+      @media only screen and (max-width: 700px){
+li{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+nav a{
+padding: 0;
+ 	
+}
+.liborder{
+	width: 70px;
+	padding-top: 5px;
+}
+.liborder1, .liborder2{		
+	width: 100px;
+	padding-top: 5px;
+}  
+.firstdiv{
+	height: 50px;
+	width: 100%;	 
+	text-align: center;	padding-top: 5px;
+ 
+}
+.liborder{
+	height: auto; 
+	width: 60px; 
+	padding: 0;  
+}
+ .liborder1{
+	height: auto; 
+ 	padding: 0;
+	width: 75px;
+  
+}
+ .liborder2{
+	height: auto;
+	width: 90px; 
+  	padding: 0;
+  
+}
+}
+ 
+ 
+
+@media only screen and (max-width: 700px){
+	h1, h2 {font-size: 75%;}
+	nav, nav lu, nav li {padding: 2px 1px;}
+	nav li {display: block;}
+	nav a {display: block;
+   /* 		border-bottom: 2px ridge #00005D; */}  
+	div{
+/*   	display: inline-block;   */
+	}
+		.miniboxes{
+/* 		margin: 0;
+		float: left;
+		width: 30%;
+		 */
+	}
+}
+ 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 20px;
+}
+
+li a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 1px 1px;
+}
+a{
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #2554C7;
+}
+
+/*  *******************  SECTION 2  *************************  */
+ 
+ 
+footer{
+	background-color: #357EC7;  /*  #357EC7;   */
+ 	height: 130px;
+ 	width: 98.6%;
+ 	position: relative;  
+}
+/*  *******************  FOOTER  *************************  */
+.footerstyle{
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+}
+ 

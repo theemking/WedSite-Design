@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	height: 500px;
+     margin: 0;  
+    font-family: Arial;
+    font-size: 17px;
+
+}
+
+#myVideo {
+	height: auto;
+	max-height:740px; 
+	width: 100%; 
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 99.4%;
+	height: 100px;
+   	margin-left: 4px;    
+}
+ @media only screen and (max-width: 700px){
+	.contextsize{
+		font-size: 10px;
+	}
+	h1, h2{
+		font-size: 80%;
+	}
+ }
+.contextsize{
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	padding:0;
+}
+.contextsize2{
+	padding: 50px;
+	padding-top: 10px;
+}
+.ajustpause{
+	padding: 10px;
+}
+.seemore{
+/* 	background-color: blue; */
+	height: 50px;
+	width: 450px;
+ 	float: right;  
+	text-align: left;
+	color: #fff;
+	display: inline-block;
+}
+.seemore1{
+	height: 40px;
+	width: 300px;
+	float: right;
+	
+}
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;  
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}

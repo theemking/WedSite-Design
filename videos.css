@@ -1,0 +1,400 @@
+/* Think About A Child html CSS*/
+
+   .header2{
+	height: 135px;
+	width: 100%; 
+  	display: block;  
+/* 	background-color: green; */
+	padding-bottom: 10px;
+}  
+body{
+	width: 98%; 
+	height: auto;  
+}
+/*  *******************  MAIN  *************************  */ 
+ .main{	
+	width: 100%;
+  	height: auto;  
+	padding-left: 5px;
+ }
+@media only screen and (max-width: 700px){
+  	.header2{  width: 480px;	  
+	padding:5px;
+	height: 175px;
+	display: inline-block; 	
+/* 	border-bottom: 2px ridge #00005D; */
+	}  
+
+	h1, h2, h3{font-size: 100%;	}  
+
+}
+@media only screen and (max-width: 700px){
+	.youtube{
+	margin-top: 40px;
+    margin-right: auto;   		
+	}
+	
+	.facebook{
+  	margin-top: 40px; 
+   	margin-right: -10px;   
+	}
+	.donatelogo{
+	margin-top: -84px;
+  	margin-right: 175px;
+	padding: 0;
+	}
+
+  .donate{
+	margin-left: 20px;
+  	margin-top: auto;	  
+  	color: orange;  
+/* 	font-size: 35px; */
+	float: left;
+} 
+}
+.logo{
+	width: 28%;  
+	padding: 5px;
+	float: left;
+
+}
+
+   .facebook{ 	  background-color: purple;  
+	float: right; 
+  	padding: 20px;   
+  }  
+  .youtube{   	background-color: pink;  
+    padding: 0;    
+	padding: 20px;
+  	float: right;   
+  }
+  .donate{ color: orange;  
+    display: inline-block;	    
+   	margin-top: 5px;   
+	margin-bottom: -20px;
+	text-align: center; 
+  }
+  
+  .donatelogo{   	background-color: #357EC7; 
+	color: #CD7F32;	 
+    float: right;
+	padding: 20px;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+  }
+ @keyframes mymove {
+    from {background-color: #357EC7;}
+    to {background-color: Green;}
+ }	
+ .position1{
+ 
+	 position: fixed;
+/* 	 float: right; */ */
+ }
+
+@media only screen and (max-width: 700px){
+body{
+	width: 100%;
+}
+.main{
+	/* 	width: 35%;  */
+}
+}	
+@media only screen and (min-width: 600px){
+	.miniboxes{
+	margin-left: 0;
+/* 		float: left;*/	
+		width: 100%;
+	}
+}
+ 
+/*  *******************  SECTION 1  *************************  */
+.primaryTEXT{
+	text-transform: uppercase;
+	text-align: center;
+}
+.textcolo1{
+	color: #3090C7;
+}
+.textcolo2{
+	color: #fff;
+}
+.sampletext{
+	font-size: 20px;
+	text-align: center;
+/* 	padding: 10px; */ 
+	line-height: 50px;
+	
+}
+/*  *******************  SECTION 2  *************************  */
+ .section2{
+
+}
+ .vitex{
+	height: 290px;
+	width: 95.8%;
+	padding: 30px;
+	float: left;
+	margin-bottom: 40px;
+	background-color: #357EC7; 
+
+ }
+.vitex:hover{
+	opacity: 0.5;
+	flilter: alpha(opacity=50);
+}
+/***************************************************************************************/
+.firstdiv{
+	background-color: #357EC7 ; /* #ADD8E6; */
+	height: 70px;
+	width: 100%;
+	float: center;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.liborder{
+	height: auto;
+	width: 130px;
+}
+ .liborder1{
+	height: auto;
+	width: 180px;
+}
+ .liborder2{
+	height: auto;
+	width: 190px;
+}
+ li {
+	float: left;
+/* 		padding-left: 40px; */
+}
+@media only screen and (min-width: 600px){
+/* .section2{ 
+	margin: 0;
+	padding: 0;
+ 	margin-left: 40px; 
+ 	width: 35%;
+}
+.rizebox1{
+ 	padding: 0; 
+	margin: 0;	 
+	height: 100px;
+	width: 30%; 
+}
+ .video2{
+ 	padding: 0; 
+	margin: 0;	 
+  	height: auto;  
+	width: 20%;
+}
+ iframe{
+	height: auto;
+	width: 240px;
+ } */
+}
+@media only screen and (max-width: 700px){
+
+.vitex{
+ 	padding: 10px; 
+	margin-bottom: 10px;
+	height: auto;
+	width: 430px;
+	position: absolute;
+}
+.main{
+	margin: 0;
+	padding: 0;	
+}
+.section2{
+	padding: 0;
+	margin: 0;
+ 	padding-top: 20px;
+	padding-bottom: 20px; 
+/* 	padding-right: 20px; */
+							/* background-color: pink; */
+  	height: auto;
+	width: 475px;  
+/* 	position: relative;
+ */}
+.miniboxes{
+	margin:  -100px;
+	margin-top: 500px;
+	height: auto;
+	width: 475px; 
+/* 	background-color: yellow; */
+      
+}
+iframe{
+
+	padding: 0;  
+	height: auto;
+ 	width: 200px; 
+}
+.rizebox1{
+/*   	padding: 0; */  
+	margin: -40px;
+/*  	background-color: orange; */
+	width: 30%;
+
+}
+ .video2{
+ /*  	padding: 0;
+	margin-left: 3px;	margin: 0;
+	height: auto;  
+ 	width: 200px;	  	 */
+}  
+}
+      @media only screen and (max-width: 700px){
+li{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+nav a{
+padding: 0;
+ 	
+}
+.liborder{
+	width: 70px;
+	padding-top: 5px;
+}
+.liborder1, .liborder2{		
+	width: 100px;
+	padding-top: 5px;
+}  
+.firstdiv{
+	height: 50px;
+	width: 100%;	 
+	text-align: center;	
+	padding-top: 5px;
+ }
+.liborder{
+	height: auto; 
+	width: 60px; 
+	padding: 0;  
+}
+ .liborder1{
+	height: auto; 
+ 	padding: 0;
+	width: 75px;
+  
+}
+ .liborder2{
+	height: auto;
+	width: 90px; 
+  	padding: 0;
+}
+}
+
+.secondDiv{
+	background-color: #EBF4FA; /* #677 */
+	width: 100%;
+	height: 780px;
+ /* 	margin: 0 70px;  */	
+}
+.secondDIV1{
+	background-color: #fff;
+	height: 700px;
+	width: 95%;
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;	
+}
+.video1{
+	width: 95%;
+	height: 600px;
+}
+.video2{
+	padding-top: 10px;
+	height: 460px;
+	width: 500px;
+	
+}
+.secondDIV-Shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+	/* ,	0 6px 20px 0 rgpa(0, 0, 0, 0.19); */
+	text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+	h1, h2 {font-size: 75%;}
+	nav, nav lu, nav li {padding: 2px 1px;}
+	nav li {display: block;}
+	nav a {display: block;
+   /* 		border-bottom: 2px ridge #00005D; */}  
+	div{
+/*   	display: inline-block;   */
+	}
+
+}
+ 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 20px;
+}
+
+li a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 1px 1px;
+}
+a{
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #2554C7;
+}
+
+/*  *******************  SECTION 2  *************************  */
+ 
+ 
+.miniboxes{
+/* align-items: center; 
+   display: flex;
+  flex-wrap: wrap;   */
+  padding: 10px 10px 20px 10px;
+  justify-content: space-around;
+   vertical-align: top;
+/*    position: center; */
+  	padding-left: 60px;
+/* 	float: left;  */ 
+
+}
+.rizebox1{
+/* 	background-color: lightblue; */
+	width: 570px;
+	height: 560px;
+	display: inline-block;
+	vertical-align: top;
+  	float: center;  
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+.rizebox1:hover{
+/* 	width: 505px;
+	height: 605px;
+	-webkit-transition: width 2s;
+	transition: width 2s; */
+}
+footer{
+	background-color: #357EC7;  /*  #357EC7;   */
+ 	height: 130px;
+ 	width: 98%;
+/* 	position: relative; */
+ 	margin-top: 40px;   
+}
+/*  *******************  FOOTER  *************************  */
+.footerstyle{
+  	margin-bottom: 20px;   
+	text-align: center;
+	font-size: 20px;
+  	padding-top: 30px;   
+	position: absolute;
+}
+ 

@@ -1,0 +1,486 @@
+/* Think About A Child html CSS*/
+
+   .header2{
+	height: 135px;
+	width: 100%; 
+  	display: block;  
+	padding-bottom: 10px;
+}  
+ 
+ body{
+	width: 100%; 
+	height: auto;  
+}
+/*  *******************  MAIN  *************************  */ 
+ .main{	
+	width: 100%;
+  	height: auto;  
+	padding-left: 10px;
+	padding: 10px;
+ }
+ 
+@media only screen and (max-width: 700px){
+  	.header2{  width: 480px;	  
+	padding: 5px;
+	height: 180px;
+	display: inline-block; 	
+/* 	border-bottom: 2px ridge #00005D; */
+	}  
+
+	h1, h2, h3{font-size: 100%;	}  
+
+}
+
+@media only screen and (max-width: 700px){
+	.youtube{
+	margin-top: 40px;
+    margin-right: auto;   		
+	}
+	
+	.facebook{
+  	margin-top: 40px; 
+   	margin-right: -10px;   
+	}
+	.donatelogo{
+	margin-top: -80px;
+  	margin-right: 175px;
+	padding: 0;
+	}
+
+  .donate{
+	margin-left: 20px;
+  	margin-top: auto;	  
+  	color: orange;  
+	float: left;
+}  
+}
+.logo{
+	width: 28%;  
+	padding: 5px;
+	float: left;
+
+}
+  .headeritems{
+  	height: 135px; 
+	width: 70%;
+	margin: 1px 4px 0 0;	  	 
+  	float: right;  
+}  
+
+   .facebook{ 	  background-color: purple;  
+	float: right; 
+  	padding: 20px;   
+  }  
+  .youtube{   	background-color: pink;  
+    padding: 0;    
+	padding: 20px;
+  	float: right;   
+  }
+  .donate{ 
+	color: orange;  
+    display: inline-block;	    
+   	margin-top: 15px;   
+	margin-bottom: -20px;
+	text-align: center; 
+	font-size: 13px;
+  }
+  
+  .donatelogo{   	background-color: #357EC7; 
+	color: #CD7F32;	 
+    float: right;
+	padding: 20px;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+  }
+ @keyframes mymove {
+    from {background-color: #357EC7;}
+    to {background-color: Green;}
+ }	
+
+@media only screen and (max-width: 700px){
+body{
+	width: 100%;
+}
+.main{
+/* 		width: 35%; */ 
+}
+}	
+
+ /*  *******************  FOOTER  *************************  */
+ 
+/*  *******************  SECTION 1  *************************  */
+.primaryTEXT{
+	text-transform: uppercase;
+	text-align: center;
+}
+.textcolo1{
+	color: #3090C7;
+}
+.textcolo2{
+	color: #fff;
+}
+.sampletext{
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	
+}
+/*  *******************************************************************************  */
+@media only screen and (max-width: 700px){
+ .imagebox{
+/*	 padding: 0;
+ 	 margin-bottom: 40px;
+	 height: auto;
+	 width: 700px; */
+	 
+ }
+ .imsubox1{
+/* 	 padding-bottom: 60px; */
+ }
+/* 	h1, h2 {font-size: 50px;
+		
+	} */
+ 
+.imagebox1{
+/* 	 margin: 0;
+	 padding-bottom: 40px;
+	 height: auto;
+	 width: auto; */	
+	
+}	
+}
+ .imagebox{
+	 height: 500px;
+	 width: 100%;
+	 position: relative;
+ }
+ .imagebox1{
+ 	 background-image: url("./Pictures/picture1.PNG"); 
+ 	 background-size: cover; 
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+ }
+  .imsubox1{
+	  float: right;
+	  margin-top: 50px;
+	  border-radius: 15px 15px 15px 15px;   
+  }
+  .imsbsize{
+	  font-size: 30px;
+	  color: white;
+  }
+  
+ .imsuboxmove{
+	margin-top: 190px;
+ }
+ .imsubox2{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	font-weight: bold;
+	padding-top: 0;
+	border-radius: 0 0 0 50px;  
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		
+ }
+ 
+  .vitex{
+	height: 290px;
+	width: 95.8%;
+	padding: 30px;
+	float: left;
+	margin-bottom: 40px;
+	background-color: #357EC7; 
+
+ }
+  .articletext{
+	height: 150px;
+	text-align: center;
+	font-size: 20px;
+/* 	font: 100%; */
+	padding: 20px;
+ }
+  .articletext1{
+	background-image: url("./pictures/Color1.png");/* taaclogo7-mini2.png */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;-
+	margin-top: 50px;	 
+/* 	background-color: #4CC417; */
+	padding: 20px;
+  }
+  
+   .video1DIV{ 
+  	 background-image: url("./Pictures/Color2.png");
+	background-size: cover;
+	background-repeat: no-repeat; 
+	height: 664px; 
+	display: inline-block; 
+	width: 100%;
+	padding: 30px;
+	position: relative;	 
+/* 	position:center; */
+/* 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+ }
+  .video1DIV1{
+	 background-image: url("./Pictures/Color1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 644px; 
+	display: inline-block; 
+	width: 100%;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+ 
+ .ajustvideo{
+ 	 float: center; 
+	 padding: 10px; 
+ }
+  .ajustvideo2{
+ 	 float: center; 
+	margin: 0 0 0 40px;
+ 
+ }
+   .ajustvideo{
+ 	 float: center; 
+	margin: 0 0 0 40px;
+ 
+ }
+  .ajustvideo2{
+ 	 float: center; 
+	margin: 0 0 0 40px;
+ }
+ 
+   @media only screen and (min-width: 600px){
+.video1DIV{
+	width: 100%;
+	height: auto;	 
+}
+  .textbox1{
+	padding: 0;
+	margin: 0;
+  }
+
+   @media only screen and (max-width: 700px){
+.video1DIV{
+	width: 35%;
+	height: auto;	 
+}
+  .textbox1{
+	padding: 0;
+	margin: 0;
+  }
+
+}
+ .textbox1{
+	background-color: #fff;
+	height: auto;
+	width: 90%;
+	max-width: 100%;
+  	display: inline-block;  
+  	margin-right: 20px;  
+	margin-left: 100px;
+	padding-top: 30px;
+}
+ .secondtextbox1{
+	 background-color: #fff;
+	 height: 364px;
+	 width: 600px;
+	 float: left;	
+	position: relative;	 
+ } 
+ .textbox2{
+ 	background-color: #fff;
+	height: 425px;
+	width: 472px;
+	float: left;
+  	display: inline-block;  
+  	margin-right: 20px;  
+	margin-left: 100px;
+	float: right;
+}
+
+ }
+
+ .secondtextbox2{
+	background-color: #fff;
+	height: 364px;
+	width: 600px;
+	float: left;	
+	position: relative;
+ }
+  .secondtextbox3{
+	 background-color: #fff;
+	 height: 400px;
+	 width: 550px;
+	 float: left;	
+ }
+ .subvidtex{
+	line-height: 1.8;
+	color: #2B547E;
+	font-size: 15px;
+	padding: 40px;
+/*  	background-color: green; */
+ }
+
+   .textbox3{
+	background-color: #99C68E;
+	height: 644px;
+	width: 100%;
+	display: inline-block; 
+ 
+ }
+
+ .textbg{
+	text-align: center;
+	color: #357EC7;
+/*   	background-color: white;   */
+	text-decoration: none;
+ }
+ 
+.textbg1{
+	height: auto;
+/* 	background-color: #fff; */
+	width: 1090px;
+	max-width: 100%;
+	margin-bottom: 30px;
+	margin-left: 100px;
+	float: left;
+  	text-align: center;  
+} 
+.videotex{
+	margin-top: 30px;
+/* 	margin-bottom: 20px; */ 
+	width: 100%;
+	max-width: 100%;
+/* 	background-color: purple; */
+	position: relative;
+}
+@media only screen and (max-width: 700px){
+		  
+}
+ /*  *******************************************************************************  */
+/**************************NAVIGATION BAR****************************** */
+.firstdiv{
+	background-color: #357EC7 ; /* #ADD8E6; */
+	height: 70px;
+	width: 100%;
+	float: center;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.liborder{
+	height: auto;
+	width: 130px;
+}
+ .liborder1{
+	height: auto;
+	width: 190px;
+}
+ .liborder2{
+	height: auto;
+	width: 200px;
+}
+ li {
+	float: left;
+/* 		padding-left: 40px; */
+}
+
+      @media only screen and (max-width: 700px){
+li{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+nav a{
+padding: 0;
+ 	
+}ds
+.liborder{
+	width: 70px;
+	padding-top: 5px;
+}
+.liborder1, .liborder2{		
+	width: 100px;
+	padding-top: 5px;
+}  
+.firstdiv{
+	height: 50px;
+	width: 100%;	 
+	text-align: center;	padding-top: 5px;
+ 
+}
+.liborder{
+	height: auto; 
+	width: 60px; 
+	padding: 0;  
+}
+ .liborder1{
+	height: auto; 
+ 	padding: 0;
+	width: 75px;
+  
+}
+ .liborder2{
+	height: auto;
+	width: 80px; 
+  	padding: 0;
+  
+}
+}
+@media only screen and (max-width: 700px){
+	h1, h2 {font-size: 70%;}
+	nav, nav lu, nav li {padding: 2px 1px;}
+	nav li {display: inline-block;}
+	nav a {display: block;
+   	/* 	border-bottom: 2px ridge #00005D; */}  
+	div{
+/*   	display: inline-block;   */
+	}
+}
+ 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 20px;
+}
+li {
+	float: left;
+}
+li a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 1px 1px;
+}
+a{
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #2554C7;
+}
+
+/*  *******************  SECTION 2  *************************  */
+ 
+ /*  *******************  FOOTER  *************************  */
+ 
+footer{
+	background-color: #357EC7;  /*  #357EC7;   */
+ 	height: 130px;
+ 	width: 98%;
+ 	position: relative;  
+ 	margin-top: 40px;   
+}
+/*  *******************  FOOTER STYLES *************************  */
+.footerstyle{
+  	margin-bottom: 20px;   
+	text-align: center;
+	font-size: 20px;
+  	padding-top: 30px;   
+	position: absolute;
+}
+ 

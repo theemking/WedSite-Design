@@ -1,0 +1,213 @@
+/* Think About A Child html CSS*/
+
+   .header2{
+	height: 135px;
+	width: 100%; 
+  	display: block;  
+/* 	background-color: green; */
+	padding-bottom: 10px;
+}  
+@media only screen and (max-width: 700px){
+  	.header2{  width: 480px;	  
+	padding: 5px;
+	height: 180px;
+	display: inline-block; 	
+	border-bottom: 2px ridge #00005D;
+	}  
+
+	h1, h2, h3{font-size: 100%;	}  
+
+}
+@media only screen and (min-width: 700px){
+.donate{
+ 	margin-right: -250px;
+	padding:0;
+	float: left;	
+}
+}
+@media only screen and (max-width: 700px){
+	.youtube{
+	margin-top: 32px;
+
+	}
+    
+	.facebook{
+  	margin-top: -108px; 
+  	margin-right: 100px;  
+	}
+	.donatelogo{
+	margin-top: -108px;
+  	margin-right: 165px;
+	}
+
+.donate{
+	margin-left: 20px;
+	margin-top: 130px;	 
+	color: orange;
+	font-size: strong;
+	float: left;
+}
+}
+.logo{
+	width: 28%;  
+	padding: 5px;
+	float: left;
+
+}
+  .headeritems{
+  	height: 135px; 
+	width: 70%;
+	margin: 1px 4px 0 0;	  	 
+  	float: left;  
+	display: inline-block;
+	background-color: black;
+}  
+
+   .facebook{ 	  background-color: purple;  
+	float: right; 
+  	padding: 20px;   
+  }  
+  .youtube{   	background-color: pink;  
+    padding: 0;    
+	padding: 20px;
+  	float: right;   
+  }
+  .donate{ color: orange;  
+    display: inline-block;	    
+   	margin-top: 15px;   
+	margin-bottom: -20px;
+	text-align: center; 
+	font-size: 13px;
+  }
+  
+  .donatelogo{   	background-color: #357EC7; 
+	color: #CD7F32;	 
+    float: right;
+	padding: 20px;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+  }
+ @keyframes mymove {
+    from {background-color: #357EC7;}
+    to {background-color: Green;}
+ }	
+ 
+body{
+	width: 100%; 
+	height: auto;  
+}
+@media only screen and (max-width: 700px){
+body{
+	width: 100%;
+}
+.main{
+		width: 35%; 
+}
+}	
+ 
+
+/*  *******************  MAIN  *************************  */ 
+ .main{	
+	width: 99%;
+  	height: auto;  
+    position: center;  
+ }
+ /*  *******************  FOOTER  *************************  */
+ 
+/*  *******************  SECTION 1  *************************  */
+.primaryTEXT{
+	text-transform: uppercase;
+	text-align: center;
+}
+.textcolo1{
+	color: #3090C7;
+}
+.textcolo2{
+	color: #fff;
+}
+.sampletext{
+	font-size: 20px;
+	text-align: center;
+/* 	padding: 10px; */ 
+	line-height: 50px;
+	
+}
+/*  *******************************************************************************  */
+ 
+
+ 
+ 
+ /*  *******************************************************************************  */
+/**************************NAVIGATION BAR****************************** */
+.firstdiv{
+	background-color: #357EC7 ; /* #ADD8E6; */
+	height: 60px;
+	width: 100%;
+	float: center;
+	    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+ 
+ 
+ 
+
+@media only screen and (max-width: 700px){
+	h1, h2 {font-size: 90%;}
+	nav, nav lu, nav li {padding: 2px 12px;}
+	nav li {display: block;}
+	nav a {display: block;
+   		border-bottom: 2px ridge #00005D;}  
+	div{
+/*   	display: inline-block;   */
+	}
+		.miniboxes{
+/* 		margin: 0;
+		float: left;
+		width: 30%;
+		 */
+	}
+}
+ 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 20px;
+}
+li {
+	float: left;
+		padding-left: 40px;
+}
+li a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 1px 1px;
+}
+a{
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #7FFFD4;
+}
+
+/*  *******************  SECTION 2  *************************  */
+ 
+ 
+ 
+footer{
+	background-color: #357EC7;  /*  #357EC7;   */
+ 	height: 130px;
+ 	width: 99%;
+/* 	position: relative; */
+ 	margin-top: 40px;   
+}
+/*  *******************  FOOTER  *************************  */
+.footerstyle{
+/* 	margin; 30px; */
+	text-align: center;
+	font-size: 20px;
+  	padding-top: 30px;   
+	position: absolute;
+}
+ 

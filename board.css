@@ -1,0 +1,331 @@
+/* Think About A Child html CSS*/
+
+   .header2{
+	height: 135px;
+	width: 100%; 
+  	display: block;  
+/* 	background-color: green; */
+	padding-bottom: 10px;
+} 
+
+body{
+	width: 100%; 
+	height: auto;  
+}
+/*  *******************  MAIN  *************************  */ 
+ .main{	
+	width: 100%;
+  	height: auto;  
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+ }
+ 
+@media only screen and (max-width: 700px){
+  	.header2{  width: 480px;	  
+	padding: 5px;
+	height: 180px;
+	display: inline-block; 	
+/* 	border-bottom: 2px ridge #00005D; */
+	}  
+
+	h1, h2, h3{font-size: 100%;	}  
+
+}
+@media only screen and (min-width: 700px){
+.donate{
+ 	margin-right: -250px;
+	padding:0;
+	float: left;	
+}
+}
+@media only screen and (max-width: 700px){
+	.youtube{
+	margin-top: 40px;
+    margin-right: auto;   		
+	}
+	
+	.facebook{
+  	margin-top: 40px; 
+   	margin-right: -10px;   
+	}
+	.donatelogo{
+	margin-top: -80px;
+  	margin-right: 175px;
+	padding: 0;
+	}
+
+  .donate{
+	margin-left: 20px;
+  	margin-top: auto;	  
+  	color: orange;  
+/* 	font-size: 35px; */
+	float: left;
+}
+}
+.logo{
+	width: 28%;  
+	padding: 5px;
+	float: left;
+
+}
+  .headeritems{
+  	height: 135px; 
+	width: 70%;
+	margin: 1px 4px 0 0;	  	 
+  	float: right;  
+	display: inline-block;
+/* 	background-color: black; */
+}  
+
+   .facebook{ 	  background-color: purple;  
+	float: right; 
+  	padding: 20px;   
+  }  
+  .youtube{   	background-color: pink;  
+    padding: 0;    
+	padding: 20px;
+  	float: right;   
+  }
+  .donate{ color: orange;  
+    display: inline-block;	    
+   	margin-top: 15px;   
+	margin-bottom: -20px;
+	text-align: center; 
+	font-size: 13px;
+  }
+  
+  .donatelogo{   	background-color: #357EC7; 
+	color: #CD7F32;	 
+    float: right;
+	padding: 20px;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+  }
+ @keyframes mymove {
+    from {background-color: #357EC7;}
+    to {background-color: Green;}
+ }	
+
+@media only screen and (max-width: 700px){
+body{
+	width: 100%;
+}
+.main{
+	/* 	width: 35%; */ 
+}
+}	
+ 
+ /*  *******************  FOOTER  *************************  */
+ 
+/*  *******************  SECTION 1  *************************  */
+.primaryTEXT{
+	text-transform: uppercase;
+	text-align: center;
+}
+.textcolo1{
+	color: #3090C7;
+}
+.textcolo2{
+	color: #fff;
+}
+.sampletext{
+	font-size: 20px;
+	text-align: center;
+/* 	padding: 10px; */ 
+	line-height: 50px;
+	
+}
+
+/*  *******************************************************************************  */
+.ceoimaage{
+	width: 200px;
+	height: 200px; 
+} 
+.board{
+	height: auto;
+	width: 260px;	
+    margin: 70px;   
+	padding-top: 20px; 
+	padding-left: 40px;
+/* 	text-align: center; */
+  	background-color: White ;
+	display: inline-block;	
+	border: 1px solid lightgray;
+	float: center;
+}
+.boardtext{
+	height: auto;
+	width: 100%;
+/*   	background-color: blue;  
+ */	padding-top: 20px;
+	padding-bottom: 40px;
+
+}
+.boardtext1{
+	height: auto;
+	width: 80%;
+/*   	background-color: lightblue;  
+ */	padding: 20px;
+ 	margin-left: 90px;  
+	float: center;
+}
+.allboard{
+	height: auto;
+	width: 100%;
+  	display: inline-block;	
+	padding-left: 40px;
+/*     	background-color: lightgray ;  
+ */}
+.leftside{
+	background-color: #98AFC7;
+	width: 300px;
+	height: auto;
+/* 	position: left; */
+
+}
+.boartext{
+	font-size: 13px;
+	padding-bottom: 30px;
+}
+.boartext2{
+	font-size: 25px;
+	text-align: center;
+	padding-top: 30px;
+}
+ 
+ /*  *******************************************************************************  */
+/**************************NAVIGATION BAR****************************** */
+.firstdiv{
+	background-color: #357EC7 ; /* #ADD8E6; */
+	height: 73px;
+	width: 100%;
+	float: center;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.liborder{
+	height: auto;
+	width: 150px;
+}
+ .liborder1{
+	height: auto;
+	width: 200px;
+}
+ .liborder2{
+	height: auto;
+	width: 200px;
+}
+ li {
+	float: left;
+/* 		padding-left: 40px; */
+}
+
+      @media only screen and (max-width: 700px){
+li{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+nav a{
+padding: 0;
+ 	
+}
+.liborder{
+	width: 70px;
+	padding-top: 5px;
+}
+.liborder1, .liborder2{		
+	width: 100px;
+	padding-top: 5px;
+}  
+.firstdiv{
+	height: 50px;
+	width: 100%;	 
+	text-align: center;
+	padding-top: 5px;
+}
+.liborder{
+	height: auto; 
+	width: 50px; 
+	padding: 0;  
+}
+ .liborder1{
+	height: auto; 
+ 	padding: 0;
+	width: 70px;
+  
+}
+ .liborder2{
+	height: auto;
+	width: 70px; 
+  	padding: 0;
+}
+}
+@media only screen and (max-width: 700px){
+	h1, h2 {font-size: 70%;}
+	nav, nav lu, nav li {padding: 2px 1px;}
+	nav li {display: inline-block;}
+	nav a {
+		display: block;
+   	/* 	border-bottom: 2px ridge #00005D; */
+		}  
+	div{
+/*     	display: inline-block;    
+ */	}
+		.miniboxes{
+/* 		margin: 0;
+		float: left;
+		width: 30%;
+		 */
+	}
+.liborder{
+	width: 60px;
+}
+.liborder1, .liborder2{		
+	width: 80px;
+} 
+}
+ 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 20px;
+}
+ 
+li a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 1px 1px;
+}
+a{
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #2554C7;
+}
+
+/*  *******************  SECTION 2  *************************  */
+ 
+ 
+ 
+footer{
+	background-color: #357EC7;  /*  #357EC7;   */
+ 	height: 130px;
+ 	width: 98.5%;
+/* 	position: relative; */
+/*  	margin-top: 40px;  */  
+}
+/*  *******************  FOOTER  *************************  */
+.footerstyle{
+  	margin-bottom: 20px;   
+	text-align: center;
+	font-size: 20px;
+  	padding-top: 10px;   
+	position: absolute;
+}
+ 
